@@ -12,7 +12,7 @@ public class Persons implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "create_datetime")
+//    @Column(name = "create_datetime")
     /*
        @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
        @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZ", locale = "zh", timezone = "UTC")
@@ -20,19 +20,19 @@ public class Persons implements Serializable {
     */
     private String create_datetime;
 
-    @Column(name = "username")
+//    @Column(name = "username")
     private String username;
 
-    @Column(name = "email")
+//    @Column(name = "email")
     private String email;
 
-    @Column(name = "phone")
+//    @Column(name = "phone")
     private String phone;
 
-    @Column(name = "sex")
+//    @Column(name = "sex")
     private String sex;
 
-    @Column(name = "zone")
+//    @Column(name = "zone")
     private String zone;
 
     public long getId() {
